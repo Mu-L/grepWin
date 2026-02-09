@@ -57,11 +57,7 @@ Closes #\<number>
 
 *Context:*
 
-- [ ] COM object `NetJson.Parser`
-- [ ] COM object `NetWebView2.Manager - WebView2`
-- [ ] COM object `NetWebView2.Manager - Bridge`
-- [ ] UDF - NetWebView2Lib.au3
-- [ ] Examples: ...
+- [ ] ....
 - [ ] with ...
 
 #### 🔬 Describe how you tested your changes
