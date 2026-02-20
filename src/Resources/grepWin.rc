@@ -419,6 +419,9 @@ BEGIN
     IDS_REGEXEXCEPTION      "Regex stack error"
     IDS_COLUMN              "Column"
     IDS_FILTER_CUE          "Filter results"
+    IDS_ERR_WHOLEWORDNOTPOSSIBLE 
+                            "Search string contains non-word characters, a ""whole word"" search is not possible!"
+    IDS_ERR_INVALID_TEXT    "Invalid search text"
 END
 
 STRINGTABLE

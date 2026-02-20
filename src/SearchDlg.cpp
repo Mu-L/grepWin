@@ -1,6 +1,6 @@
 // grepWin - regex search and replace for Windows
 
-// Copyright (C) 2007-2025 - Stefan Kueng
+// Copyright (C) 2007-2026 - Stefan Kueng
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -1317,7 +1317,24 @@ LRESULT CSearchDlg::DoCommand(int id, int msg)
                         m_searchPath += item->filePath;
                     }
                 }
-
+                if (!m_bUseRegex && m_bWholeWords)
+                {
+                    // check if the search string contains only word characters, otherwise whole word search is not possible
+                    bool hasOnlyWordChars = true;  
+                    for (wchar_t ch : m_searchString)
+                    {
+                        if (!iswalnum(ch) && ch != L'_')
+                        {
+                            hasOnlyWordChars = false;
+                            break;
+                        }
+                    }
+                    if (!hasOnlyWordChars)
+                    {
+                        ShowEditBalloon(IDC_SEARCHTEXT, TranslatedString(hResource, IDS_ERR_INVALID_TEXT).c_str(), TranslatedString(hResource, IDS_ERR_WHOLEWORDNOTPOSSIBLE).c_str());
+                        break;
+                    }
+                }
                 m_searchedItems = 0;
                 m_totalItems    = 0;
 
