@@ -1212,11 +1212,28 @@ LRESULT CSearchDlg::DlgFunc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPara
                     auto buf     = GetDlgItemText(IDC_SEARCHPATH);
                     m_searchPath = buf.get();
 
-                    if (wParam == 1)
-                        m_searchPath.clear();
-                    else
-                        m_searchPath += L"|";
-                    m_searchPath += newPath;
+                    if (wParam == 1 || m_searchPath.empty())
+                        m_searchPath = newPath;
+                    else {
+                        // Look for duplicates.
+                        bool exists = false;
+                        size_t substrBegin = 0;
+                        for (;;)
+                        {
+                            size_t sepPos = m_searchPath.find(L'|', substrBegin);
+                            exists = m_searchPath.compare(substrBegin, sepPos - substrBegin, newPath) == 0;
+                            if (exists || sepPos == std::wstring::npos)
+                                break;
+                            substrBegin = sepPos + 1;
+                        }
+
+                        if (!exists)
+                        {
+                            // Append to existent paths.
+                            m_searchPath += L'|';
+                            m_searchPath += newPath;
+                        }
+                    }
                     SetDlgItemText(hwndDlg, IDC_SEARCHPATH, m_searchPath.c_str());
                     g_startTime = GetTickCount64();
                 }
