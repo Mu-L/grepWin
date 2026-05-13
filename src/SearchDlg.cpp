@@ -1214,7 +1214,8 @@ LRESULT CSearchDlg::DlgFunc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPara
 
                     if (wParam == 1 || m_searchPath.empty())
                         m_searchPath = newPath;
-                    else {
+                    else
+                    {
                         // Look for duplicates.
                         bool exists = false;
                         size_t substrBegin = 0;
