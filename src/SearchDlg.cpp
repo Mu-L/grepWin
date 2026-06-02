@@ -3243,8 +3243,32 @@ LRESULT CSearchDlg::DoListNotify(LPNMITEMACTIVATE lpNMItemActivate)
                         }
                         break;
                         case 4: // path
-                            wcsncpy_s(pItem->pszText, pItem->cchTextMax, pInfo->filePath.substr(0, pInfo->filePath.size() - pInfo->filePath.substr(pInfo->filePath.find_last_of('\\') + 1).size() - 1).c_str(), pItem->cchTextMax - 1LL);
-                            break;
+                        {
+                            std::wstring pathToDisplay;
+                            if (m_searchPath.find('|') != std::wstring::npos)
+                            {
+                                // Show full path in case of multiple search paths
+                                pathToDisplay = pInfo->filePath.substr(0, pInfo->filePath.size() - pInfo->filePath.substr(pInfo->filePath.find_last_of('\\') + 1).size() - 1);
+                            }
+                            else
+                            {
+                                // Relative path
+                                auto filePart = pInfo->filePath.substr(pInfo->filePath.find_last_of('\\'));
+                                auto len      = pInfo->filePath.size() - m_searchPath.size() - filePart.size();
+                                if (len > 0)
+                                    --len;
+                                if (m_searchPath.size() < pInfo->filePath.size())
+                                {
+                                    pathToDisplay = pInfo->filePath.substr(m_searchPath.size() + 1, len);
+                                    if (pathToDisplay.empty())
+                                        pathToDisplay = L"\\.";
+                                }
+                                else
+                                    pathToDisplay = pInfo->filePath;
+                            }
+                            wcsncpy_s(pItem->pszText, pItem->cchTextMax, pathToDisplay.c_str(), pItem->cchTextMax - 1LL);
+                        }
+                        break;
                         default:
                             pItem->pszText[0] = 0;
                             break;
