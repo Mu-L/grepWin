@@ -310,6 +310,10 @@ msgstr "கணினி உருப்படிகளைச் சேர்"
 msgid "Invalid path!"
 msgstr "தவறான பாதை!"
 
+#. Resource IDs: (183)
+msgid "Invalid search text"
+msgstr ""
+
 #. Resource IDs: (161)
 msgid "Inverse search"
 msgstr "தலைகீழ் தேடல்"
@@ -490,6 +494,10 @@ msgstr "தேடல் முடிவுகள்"
 #. Resource IDs: (105)
 msgid "Search string"
 msgstr "சரம் தேடல்"
+
+#. Resource IDs: (182)
+msgid "Search string contains non-word characters, a \"whole word\" search is not possible!"
+msgstr ""
 
 #. Resource IDs: (128)
 #, c-format
