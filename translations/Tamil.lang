@@ -33,32 +33,19 @@ msgstr ""
 # ONLY change the msgstr field. Do NOT change any other.
 # If you do not want to change an Accelerator Key, copy msgid to msgstr
 
-# msgid/msgstr fields for Accelerator keys
-# Format is: "ID:xxxxxx:VACS+X" where:
-#    ID:xxxxx = the menu ID corresponding to the accelerator
-#    V = Virtual key (or blank if not used) - nearly always set!
-#    A = Alt key     (or blank if not used)
-#    C = Ctrl key    (or blank if not used)
-#    S = Shift key   (or blank if not used)
-#    X = upper case character
-# e.g. "V CS+Q" == Ctrl + Shift + 'Q'
-# ONLY Accelerator Keys with corresponding alphanumeric characters can be
-# updated i.e. function keys (F2), special keys (Delete, HoMe) etc. will not.
-# ONLY change the msgstr field. Do NOT change any other.
-# If you do not want to change an Accelerator Key, copy msgid to msgstr
 #. Resource IDs: (149)
 #, c-format
 msgid "%ld more matches"
 msgstr "%ld மேலும் பொருத்தங்கள்"
 
 #. Resource IDs: (1069)
-msgid "%path% is replaced with the path of the file, %line% with the line to jump to, %column% with in line offset"
-msgstr "%path% கோப்பின் பாதையுடன் மாற்றப்படுகிறது, %line% வரிக்கு செல்ல வேண்டும், %column% வரி ஈடுசெய்யுடன்"
+msgid "%path% is replaced with the path of the file, %line% with the line to jump to, %column% with in line offset, %pattern% with the search pattern"
+msgstr "%path% கோப்பின் பாதையுடன் மாற்றப்படுகிறது, %line% வரிக்கு செல்ல வேண்டும், %column% வரி ஈடுசெய்யுடன், %pattern% = தேடல் முறை"
 
 #. Resource IDs: (175)
 #, c-format
 msgid "%s files, skipped %s files. %s results selected."
-msgstr "%s கோப்புகள், %s கோப்புகளைத் தவிர்த்தன. தேர்ந்தெடுக்கப்பட்ட %முடிவுகள்."
+msgstr "%s கோப்புகள், %s கோப்புகளைத் தவிர்த்தன. தேர்ந்தெடுக்கப்பட்ட %s முடிவுகள்."
 
 #. Resource IDs: (119)
 msgid "&About grepWin..."
@@ -66,7 +53,7 @@ msgstr "வழக்கவெளிசாளரம் பற்றி ..."
 
 #. Resource IDs: (1061)
 msgid "&Convert newlines"
-msgstr ""
+msgstr "புதிய வரிகளை மாற்று (&C)"
 
 #. Resource IDs: (1049)
 msgid "&Replace"
@@ -86,7 +73,7 @@ msgstr "/"
 
 #. Resource IDs: (1045)
 msgid "<a href=\"https://tools.stefankueng.com\">Visit our website</a>"
-msgstr "<a href = \"https://tools.stefankueng.com\"> எங்கள் வலைத்தளத்தைப் பார்வையிடவும் </a>"
+msgstr "<a href=\"https://tools.stefankueng.com\">எங்கள் வலைத்தளத்தைப் பார்வையிடவும்</a>"
 
 #. Resource IDs: (1052)
 msgid "<a>about grepWin</a>"
@@ -127,11 +114,11 @@ msgstr "இடையில்"
 
 #. Resource IDs: (1095)
 msgid "Both"
-msgstr ""
+msgstr "இரண்டும்"
 
 #. Resource IDs: (1093)
 msgid "CRLF (Windows)"
-msgstr ""
+msgstr "CRLF (Windows)"
 
 #. Resource IDs: (2)
 msgid "Cancel"
@@ -159,7 +146,7 @@ msgstr "உள்ளடக்கம்"
 
 #. Resource IDs: (65535)
 msgid "Convert newlines to regex newline tags:"
-msgstr ""
+msgstr "புதிய வரிகளை regex வரி குறிச்சொற்களாக மாற்று:"
 
 #. Resource IDs: (177)
 msgid "Copy column for all items"
@@ -267,12 +254,12 @@ msgstr "கோப்புகள்"
 
 #. Resource IDs: (181)
 msgid "Filter results"
-msgstr ""
+msgstr "முடிவுகளை வடிகட்டு"
 
 #. Resource IDs: (174)
 #, c-format
 msgid "Found %s files, skipped %s files."
-msgstr "%S கோப்புகள் கிடைத்தன, %s கோப்புகளைத் தவிர்த்தன."
+msgstr "%s கோப்புகள் கிடைத்தன, %s கோப்புகளைத் தவிர்த்தன."
 
 #. Resource IDs: (109)
 msgid "GREPWIN"
@@ -328,7 +315,7 @@ msgstr "மாற்றும் போது கோப்பு தேதிய
 
 #. Resource IDs: (1094)
 msgid "LF (Linux)"
-msgstr ""
+msgstr "LF (Linux)"
 
 #. Resource IDs: (1075)
 msgid "Language:"
@@ -336,7 +323,7 @@ msgstr "மொழி:"
 
 #. Resource IDs: (1017)
 msgid "Limit search"
-msgstr "தேடல் தேடல்"
+msgstr "தேடலை கட்டுப்படுத்து"
 
 #. Resource IDs: (134)
 msgid "Line"
@@ -353,7 +340,7 @@ msgstr "பொருத்தங்கள்"
 
 #. Resource IDs: (137)
 msgid "Multiline editor"
-msgstr ""
+msgstr "பல வரி திருத்தி"
 
 #. Resource IDs: (104)
 msgid "Name"
@@ -369,11 +356,11 @@ msgstr "நியூவரி '' உடன் பொருந்துகிற�
 
 #. Resource IDs: (140)
 msgid "Newlines"
-msgstr ""
+msgstr "புதிய வரிகள்"
 
 #. Resource IDs: (1056)
 msgid "Note: newlines in the text are ignored, used for formatting only. To convert the formatting newlines to proper regex newlines use the button below."
-msgstr ""
+msgstr "குறிப்பு: உரையில் புதிய வரிகள் புறக்கணிக்கப்படுகின்றன. கீழே உள்ள பொத்தானைப் பயன்படுத்தவும்."
 
 #. Resource IDs: (1)
 msgid "OK"
@@ -502,12 +489,12 @@ msgstr ""
 #. Resource IDs: (128)
 #, c-format
 msgid "Searched %s files, skipped %s files. Found %s matches in %s files."
-msgstr "%S கோப்புகளைத் தேடியது, %s கோப்புகளைத் தவிர்த்தது. %S கோப்புகளில் %s பொருத்தங்கள் காணப்பட்டன."
+msgstr "%s கோப்புகளைத் தேடியது, %s கோப்புகளைத் தவிர்த்தது. %s கோப்புகளில் %s பொருத்தங்கள் காணப்பட்டன."
 
 #. Resource IDs: (173)
 #, c-format
 msgid "Searched %s files, skipped %s files. Found %s matches in %s files. %s results selected."
-msgstr "%S கோப்புகளைத் தேடியது, %s கோப்புகளைத் தவிர்த்தது. %S கோப்புகளில் %s பொருத்தங்கள் காணப்பட்டன. தேர்ந்தெடுக்கப்பட்ட %முடிவுகள்."
+msgstr "%s கோப்புகளைத் தேடியது, %s கோப்புகளைத் தவிர்த்தது. %s கோப்புகளில் %s பொருத்தங்கள் காணப்பட்டன. தேர்ந்தெடுக்கப்பட்ட %s முடிவுகள்."
 
 #. Resource IDs: (140)
 msgid "Select Editor Application..."

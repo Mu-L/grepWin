@@ -1212,11 +1212,29 @@ LRESULT CSearchDlg::DlgFunc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPara
                     auto buf     = GetDlgItemText(IDC_SEARCHPATH);
                     m_searchPath = buf.get();
 
-                    if (wParam == 1)
-                        m_searchPath.clear();
+                    if (wParam == 1 || m_searchPath.empty())
+                        m_searchPath = newPath;
                     else
-                        m_searchPath += L"|";
-                    m_searchPath += newPath;
+                    {
+                        // Look for duplicates.
+                        bool exists = false;
+                        size_t substrBegin = 0;
+                        for (;;)
+                        {
+                            size_t sepPos = m_searchPath.find(L'|', substrBegin);
+                            exists = m_searchPath.compare(substrBegin, sepPos - substrBegin, newPath) == 0;
+                            if (exists || sepPos == std::wstring::npos)
+                                break;
+                            substrBegin = sepPos + 1;
+                        }
+
+                        if (!exists)
+                        {
+                            // Append to existent paths.
+                            m_searchPath += L'|';
+                            m_searchPath += newPath;
+                        }
+                    }
                     SetDlgItemText(hwndDlg, IDC_SEARCHPATH, m_searchPath.c_str());
                     g_startTime = GetTickCount64();
                 }
@@ -2516,7 +2534,7 @@ void CSearchDlg::ShowContextMenu(HWND hWnd, int x, int y)
     {
         vPaths.push_back(*m_items[idx]);
     }
-    shellMenu.SetObjects(std::move(vPaths), std::move(lines));
+    shellMenu.SetObjects(std::move(vPaths), std::move(lines), m_searchString);
 
     if ((x == -1) && (y == -1))
     {
@@ -3225,8 +3243,32 @@ LRESULT CSearchDlg::DoListNotify(LPNMITEMACTIVATE lpNMItemActivate)
                         }
                         break;
                         case 4: // path
-                            wcsncpy_s(pItem->pszText, pItem->cchTextMax, pInfo->filePath.substr(0, pInfo->filePath.size() - pInfo->filePath.substr(pInfo->filePath.find_last_of('\\') + 1).size() - 1).c_str(), pItem->cchTextMax - 1LL);
-                            break;
+                        {
+                            std::wstring pathToDisplay;
+                            if (m_searchPath.find('|') != std::wstring::npos)
+                            {
+                                // Show full path in case of multiple search paths
+                                pathToDisplay = pInfo->filePath.substr(0, pInfo->filePath.size() - pInfo->filePath.substr(pInfo->filePath.find_last_of('\\') + 1).size() - 1);
+                            }
+                            else
+                            {
+                                // Relative path
+                                auto filePart = pInfo->filePath.substr(pInfo->filePath.find_last_of('\\'));
+                                auto len      = pInfo->filePath.size() - m_searchPath.size() - filePart.size();
+                                if (len > 0)
+                                    --len;
+                                if (m_searchPath.size() < pInfo->filePath.size())
+                                {
+                                    pathToDisplay = pInfo->filePath.substr(m_searchPath.size() + 1, len);
+                                    if (pathToDisplay.empty())
+                                        pathToDisplay = L"\\.";
+                                }
+                                else
+                                    pathToDisplay = pInfo->filePath;
+                            }
+                            wcsncpy_s(pItem->pszText, pItem->cchTextMax, pathToDisplay.c_str(), pItem->cchTextMax - 1LL);
+                        }
+                        break;
                         default:
                             pItem->pszText[0] = 0;
                             break;
@@ -3355,6 +3397,7 @@ void CSearchDlg::OpenFileAtListIndex(int listIndex)
         {
             SearchReplace(cmd, L"%line%", line);
             SearchReplace(cmd, L"%column%", move);
+            SearchReplace(cmd, L"%pattern%", pInfo->searchPattern);
             SearchReplace(cmd, L"%path%", pInfo->filePath);
             OpenFileInProcess(const_cast<wchar_t*>(cmd.c_str()));
             return;
@@ -4904,6 +4947,7 @@ void CSearchDlg::SearchFile(CSearchInfo sInfo, const std::wstring& searchRoot)
         // sInfo.encoding = type; // show the matched encoding
     }
 
+    sInfo.searchPattern = m_searchString;
     SendResult(sInfo, nCount);
 }
 

@@ -10,9 +10,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 1900-01-01 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Pierre le Lidgeu<EMAIL@ADDRESS>\n"
-"Language-Team: COLOK <https://www.colok-traductions.com>\n"
-"MIME-Version: 7.26.414.1_beta\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
@@ -36,36 +36,36 @@ msgstr ""
 #. Resource IDs: (149)
 #, c-format
 msgid "%ld more matches"
-msgstr "%ld autres correspondances"
+msgstr "%ld kecocokan lainnya"
 
 #. Resource IDs: (1069)
 msgid "%path% is replaced with the path of the file, %line% with the line to jump to, %column% with in line offset, %pattern% with the search pattern"
-msgstr "%path% est remplacé par le chemin d'accès du fichier, %line% par la ligne vers laquelle effectuer le saut, et %column% par le décalage dans la ligne, %pattern% par le motif de recherche"
+msgstr "%path% diganti dengan jalur file, %line% dengan baris tujuan, %column% dengan posisi dalam baris, %pattern% dengan pola pencarian"
 
 #. Resource IDs: (175)
 #, c-format
 msgid "%s files, skipped %s files. %s results selected."
-msgstr "%s fichier(s). Ignoré %s fichier(s). %s résultats sélectionnés."
+msgstr "%s file, dilewati %s file. %s hasil dipilih."
 
 #. Resource IDs: (119)
 msgid "&About grepWin..."
-msgstr "&A propos de grepWin..."
+msgstr "&Tentang grepWin..."
 
 #. Resource IDs: (1061)
 msgid "&Convert newlines"
-msgstr "Convertir les sauts de ligne"
+msgstr "&Konversi baris baru"
 
 #. Resource IDs: (1049)
 msgid "&Replace"
-msgstr "&Remplacer"
+msgstr "&Ganti"
 
 #. Resource IDs: (1003)
 msgid "&Whole word"
-msgstr "Mot entier"
+msgstr "&Kata penuh"
 
 #. Resource IDs: (1013)
 msgid "..."
-msgstr "…"
+msgstr "..."
 
 #. Resource IDs: (1061, 1063)
 msgid "/"
@@ -73,11 +73,11 @@ msgstr "/"
 
 #. Resource IDs: (1045)
 msgid "<a href=\"https://tools.stefankueng.com\">Visit our website</a>"
-msgstr "<a href=\"https://tools.stefankueng.com\">Visitez notre site</a>"
+msgstr "<a href=\"https://tools.stefankueng.com\">Kunjungi situs web kami</a>"
 
 #. Resource IDs: (1052)
 msgid "<a>about grepWin</a>"
-msgstr "<a>à propos de grepWin</a>"
+msgstr "<a>Tentang grepWin</a>"
 
 #. Resource IDs: (1086)
 msgid ">"
@@ -85,36 +85,36 @@ msgstr ">"
 
 #. Resource IDs: (135)
 msgid "About grepWin"
-msgstr "A propos de grepWin"
+msgstr "Tentang grepWin"
 
 #. Resource IDs: (1021)
 msgid "Add to Presets"
-msgstr "Ajout aux préréglages"
+msgstr "Tambah ke Prasetel"
 
 #. Resource IDs: (155)
 msgid "All Files"
-msgstr "Tous les fichiers"
+msgstr "Semua File"
 
 #. Resource IDs: (1078)
 msgid "All dates"
-msgstr "Toutes les dates"
+msgstr "Semua tanggal"
 
 #. Resource IDs: (1005)
 msgid "All sizes"
-msgstr "Toutes les tailles"
+msgstr "Semua ukuran"
 
 #. Resource IDs: (124)
 #, c-format
 msgid "Are you sure you want to replace\n%s\nwith\n%s\nwithout creating backups?"
-msgstr "Certain de vouloir remplacer \n%s\npar\n%s\nsans créer de sauvegardes ?"
+msgstr "Yakin ingin mengganti\n%s\ndengan\n%s\ntanpa membuat cadangan?"
 
 #. Resource IDs: (1081)
 msgid "Between"
-msgstr "Entre dates"
+msgstr "Antara"
 
 #. Resource IDs: (1095)
 msgid "Both"
-msgstr "Les deux"
+msgstr "Keduanya"
 
 #. Resource IDs: (1093)
 msgid "CRLF (Windows)"
@@ -122,123 +122,123 @@ msgstr "CRLF (Windows)"
 
 #. Resource IDs: (2)
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Batal"
 
 #. Resource IDs: (169)
 msgid "Capture search (Shows replaced text)"
-msgstr "Recherche avec mise en évidence (affiche le texte remplacé)"
+msgstr "Pencarian tangkapan (tampilkan teks yang diganti)"
 
 #. Resource IDs: (1088)
 msgid "Check for updates"
-msgstr "Vérifier les mises à jour"
+msgstr "Periksa pembaruan"
 
 #. Resource IDs: (180)
 msgid "Column"
-msgstr "Colonne"
+msgstr "Kolom"
 
 #. Resource IDs: (1068)
 msgid "Command line to start an editor at a specific line and in line offset:"
-msgstr "Ligne de commande lançant un éditeur à une ligne spécifique et un décalage de ligne :"
+msgstr "Baris perintah untuk membuka editor pada baris dan posisi tertentu:"
 
 #. Resource IDs: (1060)
 msgid "Content"
-msgstr "Contenu"
+msgstr "Konten"
 
 #. Resource IDs: (65535)
 msgid "Convert newlines to regex newline tags:"
-msgstr "Convertir les sauts de ligne en balises de saut de ligne ""regex :"""
+msgstr "Konversi baris baru ke tag regex:"
 
 #. Resource IDs: (177)
 msgid "Copy column for all items"
-msgstr "Copier la colonne pour tous les éléments"
+msgstr "Salin kolom untuk semua item"
 
 #. Resource IDs: (178)
 msgid "Copy column for selected items"
-msgstr "Copier la colonne pour les éléments sélectionnés"
+msgstr "Salin kolom untuk item terpilih"
 
 #. Resource IDs: (145)
 msgid "Copy filename to clipboard"
-msgstr "Copier le nom de fichier dans le presse-papiers"
+msgstr "Salin nama file ke clipboard"
 
 #. Resource IDs: (146)
 msgid "Copy filenames to clipboard"
-msgstr "Copier les fichiers dans le presse-papiers"
+msgstr "Salin nama-nama file ke clipboard"
 
 #. Resource IDs: (143)
 msgid "Copy path to clipboard"
-msgstr "Copier le chemin dans le presse-papiers"
+msgstr "Salin jalur ke clipboard"
 
 #. Resource IDs: (144)
 msgid "Copy paths to clipboard"
-msgstr "Copier les chemins dans le presse-papiers"
+msgstr "Salin jalur-jalur ke clipboard"
 
 #. Resource IDs: (147)
 msgid "Copy text result to clipboard"
-msgstr "Copier le texte obtenu dans le presse-papiers"
+msgstr "Salin hasil teks ke clipboard"
 
 #. Resource IDs: (148)
 msgid "Copy text results to clipboard"
-msgstr "Copier les textes dans le presse-papiers"
+msgstr "Salin hasil-hasil teks ke clipboard"
 
 #. Resource IDs: (1029)
 msgid "Create backup files"
-msgstr "Créer des sauvegardes"
+msgstr "Buat file cadangan"
 
 #. Resource IDs: (1077)
 msgid "Create backup files in a separate folder"
-msgstr "Créer des fichiers sauvegardes dans un autre dossier"
+msgstr "Buat file cadangan di folder terpisah"
 
 #. Resource IDs: (1064)
 msgid "Dark mode"
-msgstr "Mode sombre"
+msgstr "Mode gelap"
 
 #. Resource IDs: (139)
 msgid "Date modified"
-msgstr "Date de modification"
+msgstr "Tanggal diubah"
 
 #. Resource IDs: (1078)
 msgid "Don't warn when replacing without creating backups"
-msgstr "Ne pas avertir en remplaçant sans création de sauvegardes"
+msgstr "Jangan peringatkan saat mengganti tanpa membuat cadangan"
 
 #. Resource IDs: (1051)
 msgid "Dot matches newline"
-msgstr "Un point désigne un début de ligne"
+msgstr "Titik cocok dengan baris baru"
 
 #. Resource IDs: (1056)
 msgid "Double-Click to select a preset"
-msgstr "Double-cliquez pour choisir un modèle"
+msgstr "Klik dua kali untuk memilih prasetel"
 
 #. Resource IDs: (65535 - PopupMenu)
 msgid "Dummy"
-msgstr "Factice"
+msgstr "Kosong"
 
 #. Resource IDs: (1067)
 msgid "Editor"
-msgstr "Editeur"
+msgstr "Editor"
 
 #. Resource IDs: (138)
 msgid "Encoding"
-msgstr "Encodage"
+msgstr "Pengodean"
 
 #. Resource IDs: (1056)
 msgid "Enter a name for the regex:"
-msgstr "Entrez un nom pour l'expression régulière :"
+msgstr "Masukkan nama untuk regex:"
 
 #. Resource IDs: (1062)
 msgid "Escape key closes grepWin"
-msgstr "La touche Esc ferme grepWin"
+msgstr "Tombol Escape menutup grepWin"
 
 #. Resource IDs: (1041)
 msgid "Exclude dirs (Regex):"
-msgstr "Exclure des dossiers (Regex) :"
+msgstr "Kecualikan direktori (Regex):"
 
 #. Resource IDs: (164)
 msgid "Export resultlist"
-msgstr "Exporter la liste des résultats"
+msgstr "Ekspor daftar hasil"
 
 #. Resource IDs: (163)
 msgid "Export results..."
-msgstr "Exporter les résultats"
+msgstr "Ekspor hasil..."
 
 #. Resource IDs: (158)
 msgid "Ext"
@@ -246,20 +246,20 @@ msgstr "Ext"
 
 #. Resource IDs: (1039)
 msgid "File Names match:\nuse '|' to separate multiple text match patterns, prepen&d '-' to exclude"
-msgstr "Correspondance noms fichiers\n'|' sépare les correspondances multiples de modèles et '-' en exclut."
+msgstr "Nama file cocok:\nGunakan '|' untuk memisahkan pola, tambah '-' untuk mengecualikan"
 
 #. Resource IDs: (1059)
 msgid "Files"
-msgstr "fichiers"
+msgstr "File"
 
 #. Resource IDs: (181)
 msgid "Filter results"
-msgstr "Résultats du filtre"
+msgstr "Saring hasil"
 
 #. Resource IDs: (174)
 #, c-format
 msgid "Found %s files, skipped %s files."
-msgstr "Trouvé %s fichier(s). Ignoré %s fichier(s)."
+msgstr "Ditemukan %s file, dilewati %s file."
 
 #. Resource IDs: (109)
 msgid "GREPWIN"
@@ -267,51 +267,47 @@ msgstr "GREPWIN"
 
 #. Resource IDs: (156)
 msgid "If enabled, a backup folder is created inside the folder that's searched/replaced in, and the files are backed up into that folder"
-msgstr "Si activé, un dossier de sauvegarde est créé à l'intérieur du dossier dans lequel la recherche/le remplacement est effectué, et les fichiers y sont sauvegardés"
+msgstr "Jika diaktifkan, folder cadangan dibuat di dalam folder yang dicari/diganti, dan file dicadangkan ke sana"
 
 #. Resource IDs: (1050)
 msgid "Include binary files"
-msgstr "Inclure les binaires"
+msgstr "Sertakan file biner"
 
 #. Resource IDs: (1010)
 msgid "Include hidden items"
-msgstr "Inclure les cachés"
+msgstr "Sertakan item tersembunyi"
 
 #. Resource IDs: (1062)
 msgid "Include search path"
-msgstr "Inclure le chemin de recherche"
+msgstr "Sertakan jalur pencarian"
 
 #. Resource IDs: (1011)
 msgid "Include subfolders"
-msgstr "Inclure les sous-dossiers"
+msgstr "Sertakan subfolder"
 
 #. Resource IDs: (1092)
 msgid "Include symbolic links"
-msgstr "Inclure les liens symboliques"
+msgstr "Sertakan tautan simbolis"
 
 #. Resource IDs: (1009)
 msgid "Include system items"
-msgstr "Inclure éléments système"
+msgstr "Sertakan item sistem"
 
 #. Resource IDs: (153)
 msgid "Invalid path!"
-msgstr "Chemin invalide !"
-
-#. Resource IDs: (183)
-msgid "Invalid search text"
-msgstr ""
+msgstr "Jalur tidak valid!"
 
 #. Resource IDs: (161)
 msgid "Inverse search"
-msgstr "Recherche inverse"
+msgstr "Pencarian terbalik"
 
 #. Resource IDs: (1019)
 msgid "KB"
-msgstr "Ko"
+msgstr "KB"
 
 #. Resource IDs: (1062)
 msgid "Keep file date when replacing"
-msgstr "Garder date fichier en remplaçant"
+msgstr "Pertahankan tanggal file saat mengganti"
 
 #. Resource IDs: (1094)
 msgid "LF (Linux)"
@@ -319,48 +315,48 @@ msgstr "LF (Linux)"
 
 #. Resource IDs: (1075)
 msgid "Language:"
-msgstr "Langue :"
+msgstr "Bahasa:"
 
 #. Resource IDs: (1017)
 msgid "Limit search"
-msgstr "Limiter la recherche"
+msgstr "Batasi pencarian"
 
 #. Resource IDs: (134)
 msgid "Line"
-msgstr "Ligne"
+msgstr "Baris"
 
 #. Resource IDs: (150)
 #, c-format
 msgid "Line %5ld : %s\n"
-msgstr "Ligne %5ld : %s\n"
+msgstr "Baris %5ld : %s\n"
 
 #. Resource IDs: (135)
 msgid "Matches"
-msgstr "Correspondances"
+msgstr "Kecocokan"
 
 #. Resource IDs: (137)
 msgid "Multiline editor"
-msgstr "Editeur multiligne"
+msgstr "Editor multibaris"
 
 #. Resource IDs: (104)
 msgid "Name"
-msgstr "Nom"
+msgstr "Nama"
 
 #. Resource IDs: (1079)
 msgid "Newer than"
-msgstr "Plus récent que"
+msgstr "Lebih baru dari"
 
 #. Resource IDs: (115)
 msgid "Newline is matched by '.'"
-msgstr "Un saut de ligne est représenté par '.'"
+msgstr "Baris baru dicocokkan oleh '.'"
 
 #. Resource IDs: (140)
 msgid "Newlines"
-msgstr "Sauts de ligne"
+msgstr "Baris baru"
 
 #. Resource IDs: (1056)
 msgid "Note: newlines in the text are ignored, used for formatting only. To convert the formatting newlines to proper regex newlines use the button below."
-msgstr "NB : les sauts de ligne dans le texte sont ignorés, utilisés uniquement pour la mise en forme. Pour convertir ces sauts de ligne en sauts conformes aux expressions régulières, utilisez le bouton ci-dessous."
+msgstr "Catatan: baris baru hanya untuk pemformatan. Gunakan tombol di bawah untuk mengonversi ke baris baru regex."
 
 #. Resource IDs: (1)
 msgid "OK"
@@ -368,191 +364,187 @@ msgstr "OK"
 
 #. Resource IDs: (1080)
 msgid "Older than"
-msgstr "Plus ancien que"
+msgstr "Lebih lama dari"
 
 #. Resource IDs: (1063)
 msgid "Only one instance"
-msgstr "Une seule instance de grepWin"
+msgstr "Hanya satu instans"
 
 #. Resource IDs: (142)
 msgid "Open containing folder"
-msgstr "Ouvrir le dossier"
+msgstr "Buka folder yang berisi"
 
 #. Resource IDs: (141)
 msgid "Open with Editor"
-msgstr "Ouvrir dans l'éditeur"
+msgstr "Buka dengan Editor"
 
 #. Resource IDs: (1056)
 msgid "Paste text to test the regex with:"
-msgstr "Texte à utiliser pour tester la regex"
+msgstr "Tempel teks untuk menguji regex:"
 
 #. Resource IDs: (137)
 msgid "Path"
-msgstr "Chemin"
+msgstr "Jalur"
 
 #. Resource IDs: (131)
 msgid "Preset name"
-msgstr "Nom de modèle"
+msgstr "Nama prasetel"
 
 #. Resource IDs: (1022, 132)
 msgid "Presets"
-msgstr "Préréglages"
+msgstr "Prasetel"
 
 #. Resource IDs: (1065)
 msgid "Press F1 for help"
-msgstr "Appuyer sur F1 pour l'aide"
+msgstr "Tekan F1 untuk bantuan"
 
 #. Resource IDs: (154)
 msgid "Programs"
-msgstr "Programmes"
+msgstr "Program"
 
 #. Resource IDs: (32775 - Menu)
 msgid "Re&name Preset"
-msgstr "Re&nommer le modèle"
+msgstr "&Ganti nama prasetel"
 
 #. Resource IDs: (130)
 msgid "Regex Test"
-msgstr "Test d'expression régulière"
+msgstr "Uji Regex"
 
 #. Resource IDs: (1046)
 msgid "Regex match"
-msgstr "Expr. régulière"
+msgstr "Kecocokan Regex"
 
 #. Resource IDs: (65535)
 msgid "Regex replace string:"
-msgstr "Motif regex de remplacement :"
+msgstr "String pengganti Regex:"
 
 #. Resource IDs: (1001)
 msgid "Regex search"
-msgstr "Expression régulière"
+msgstr "Pencarian Regex"
 
 #. Resource IDs: (65535)
 msgid "Regex search string:"
-msgstr "Chaîne de recherche regex:"
+msgstr "String pencarian Regex:"
 
 #. Resource IDs: (179)
 msgid "Regex stack error"
-msgstr "Erreur d'empilage Regex"
+msgstr "Kesalahan tumpukan Regex"
 
 #. Resource IDs: (152)
 msgid "Relative paths are not allowed. Please enter an absolute path!"
-msgstr "Les chemins relatifs ne sont pas autorisés. Entrer un chemin absolu."
+msgstr "Jalur relatif tidak diizinkan. Masukkan jalur absolut!"
 
 #. Resource IDs: (32771 - Menu)
 msgid "Remo&ve Preset"
-msgstr "Suppri&mer le préréglage"
+msgstr "&Hapus prasetel"
 
 #. Resource IDs: (106)
 msgid "Replace string"
-msgstr "Chaîne de remplacement"
+msgstr "String pengganti"
 
 #. Resource IDs: (1027)
 msgid "Replace with/\nCapture format:"
-msgstr "Remplacer par/\nFormat de capture :"
+msgstr "Ganti dengan:/\nFormat tangkapan:"
 
 #. Resource IDs: (126)
 msgid "S&top"
-msgstr "S&top"
+msgstr "Be&rhenti"
 
 #. Resource IDs: (1, 1016)
 msgid "Search"
-msgstr "Chercher"
+msgstr "Cari"
 
 #. Resource IDs: (1026)
 msgid "Search &for:"
-msgstr "Rec&hercher :"
+msgstr "Cari &kata:"
 
 #. Resource IDs: (1042)
 msgid "Search case-sensitive"
-msgstr "Respecter la casse"
+msgstr "Pencarian peka huruf besar/kecil"
 
 #. Resource IDs: (1015)
 msgid "Search in"
-msgstr "Chercher dans :"
+msgstr "Cari di"
 
 #. Resource IDs: (162)
 msgid "Search in found files"
-msgstr "Chercher dans les fichiers trouvés"
+msgstr "Cari di file yang ditemukan"
 
 #. Resource IDs: (1018)
 msgid "Search results"
-msgstr "Résultats de la recherche"
+msgstr "Hasil pencarian"
 
 #. Resource IDs: (105)
 msgid "Search string"
-msgstr "Chaîne de recherche"
-
-#. Resource IDs: (182)
-msgid "Search string contains non-word characters, a \"whole word\" search is not possible!"
-msgstr ""
+msgstr "String pencarian"
 
 #. Resource IDs: (128)
 #, c-format
 msgid "Searched %s files, skipped %s files. Found %s matches in %s files."
-msgstr "%s fichier(s) fouillés, %s fichier(s) ignorés. %s correspondance(s) trouvée(s) dans %s fichier(s)."
+msgstr "Diperiksa %s file, dilewati %s file. Ditemukan %s kecocokan di %s file."
 
 #. Resource IDs: (173)
 #, c-format
 msgid "Searched %s files, skipped %s files. Found %s matches in %s files. %s results selected."
-msgstr "Cherché dans %s fichier(s). Ignoré %s fichier(s). Trouvé %s correspondance(s) dans %s fichier(s). %s résultats sélectionnés."
+msgstr "Diperiksa %s file, dilewati %s file. Ditemukan %s kecocokan di %s file. %s hasil dipilih."
 
 #. Resource IDs: (140)
 msgid "Select Editor Application..."
-msgstr "Choisir l'éditeur..."
+msgstr "Pilih Aplikasi Editor..."
 
 #. Resource IDs: (127)
 msgid "Select path to search"
-msgstr "Choisir le chemin où chercher"
+msgstr "Pilih jalur untuk dicari"
 
 #. Resource IDs: (133)
 msgid "Size"
-msgstr "Taille"
+msgstr "Ukuran"
 
 #. Resource IDs: (1006)
 msgid "Size is"
-msgstr "Taille ->"
+msgstr "Ukuran adalah"
 
 #. Resource IDs: (1028)
 msgid "Test regex"
-msgstr "Tester la regex"
+msgstr "Uji regex"
 
 #. Resource IDs: (136)
 msgid "Text"
-msgstr "Texte"
+msgstr "Teks"
 
 #. Resource IDs: (1048)
 msgid "Text match"
-msgstr "Texte normal"
+msgstr "Kecocokan teks"
 
 #. Resource IDs: (1002)
 msgid "Text search"
-msgstr "Texte normal"
+msgstr "Pencarian teks"
 
 #. Resource IDs: (160)
 #, c-format
 msgid "The path \"%s\" does not exist or is not accessible!"
-msgstr "Le chemin \"%s\" n'existe pas ou n'est pas accessible !"
+msgstr "Jalur \"%s\" tidak ada atau tidak dapat diakses!"
 
 #. Resource IDs: (65535)
 msgid "The regex search string matches:"
-msgstr "La chaîne de recherche \"regex\" correspond"
+msgstr "String pencarian regex cocok dengan:"
 
 #. Resource IDs: (65535)
 msgid "The resulting text after replacing:"
-msgstr "Texte après remplacement :"
+msgstr "Teks hasil setelah penggantian:"
 
 #. Resource IDs: (1053)
 msgid "Treat files as UTF8"
-msgstr "Les fichiers → en UTF8"
+msgstr "Perlakukan file sebagai UTF-8"
 
 #. Resource IDs: (1054)
 msgid "Treat files as binary"
-msgstr "Les fichiers → en binaires"
+msgstr "Perlakukan file sebagai biner"
 
 #. Resource IDs: (172)
 #, c-format
 msgid "You have the option \"%s\" enabled.\r\nWhen replacing, this option can lead to corrupted files.\r\nDo you want to proceed anyway?"
-msgstr "L'option « %s » est activée.\r\nLors du remplacement, cette option peut entraîner la corruption de fichiers.\r\nContinuer ?"
+msgstr "Opsi \"%s\" sedang aktif.\r\nSaat mengganti, opsi ini dapat merusak file.\r\nLanjutkan?"
 
 #. Resource IDs: (1025)
 msgid "\\"
@@ -560,31 +552,31 @@ msgstr "\\"
 
 #. Resource IDs: (116)
 msgid "a regular expression used for searching. Press F1 for more info."
-msgstr "Expression régulière utilisée pour la recherche. Appuyer sur F1 pour plus d'information."
+msgstr "ekspresi reguler untuk pencarian. Tekan F1 untuk info lebih lanjut."
 
 #. Resource IDs: (125)
 msgid "an empty string"
-msgstr "chaîne vide"
+msgstr "string kosong"
 
 #. Resource IDs: (130)
 msgid "binary"
-msgstr "binaire"
+msgstr "biner"
 
 #. Resource IDs: (118)
 msgid "click to edit the text as a multiline text"
-msgstr "Cliquer pour éditer comme texte mutiligne."
+msgstr "klik untuk mengedit teks sebagai teks multibaris"
 
 #. Resource IDs: (159)
 msgid "dark mode requires at least Win10 1803, and it must be enabled in the Windows system settings."
-msgstr "Le mode sombre nécessite au minimum Windows 10 1803 et doit être activé dans les paramètres système de Windows."
+msgstr "Mode gelap membutuhkan minimal Win10 1803 dan harus diaktifkan di pengaturan sistem Windows."
 
 #. Resource IDs: (121)
 msgid "equal to"
-msgstr "égale à"
+msgstr "sama dengan"
 
 #. Resource IDs: (122)
 msgid "greater than"
-msgstr "supérieure à"
+msgstr "lebih besar dari"
 
 #. Resource IDs: (103, 129)
 msgid "grepWin"
@@ -593,92 +585,92 @@ msgstr "grepWin"
 #. Resource IDs: (168)
 #, c-format
 msgid "grepWin %s is available"
-msgstr "grepWin %s est disponible"
+msgstr "grepWin %s tersedia"
 
 #. Resource IDs: (138)
 msgid "grepWin Settings"
-msgstr "Paramètres de grepWin"
+msgstr "Pengaturan grepWin"
 
 #. Resource IDs: (157)
 msgid "hold down the shift key to find files that DO NOT contain the search string"
-msgstr "maintenez la touche Maj enfoncée pour trouver les fichiers qui NE contiennent PAS la chaîne de recherche"
+msgstr "tahan Shift untuk mencari file yang TIDAK mengandung string pencarian"
 
 #. Resource IDs: (165)
 msgid "include file paths"
-msgstr "inclure les chemins de fichier"
+msgstr "sertakan jalur file"
 
 #. Resource IDs: (166)
 msgid "include match line numbers"
-msgstr "inclure les numéros de ligne des correspondances"
+msgstr "sertakan nomor baris yang cocok"
 
 #. Resource IDs: (167)
 msgid "include match line text"
-msgstr "inclure le texte de la ligne de correspondance"
+msgstr "sertakan teks baris yang cocok"
 
 #. Resource IDs: (132)
 msgid "invalid regex!"
-msgstr "regex non valide !"
+msgstr "regex tidak valid!"
 
 #. Resource IDs: (120)
 msgid "less than"
-msgstr "inférieure à"
+msgstr "kurang dari"
 
 #. Resource IDs: (111)
 msgid "no match"
-msgstr "Aucune correspondance."
+msgstr "tidak cocok"
 
 #. Resource IDs: (110)
 msgid "no text to replace with"
-msgstr "Aucun texte à remplacer"
+msgstr "tidak ada teks pengganti"
 
 #. Resource IDs: (107)
 msgid "no text to test with available"
-msgstr "Aucun texte à tester n'est disponible."
+msgstr "tidak ada teks untuk diuji"
 
 #. Resource IDs: (1074)
 msgid "number of NULL bytes per MB allowed for a file to still be considered text instead of binary"
-msgstr "nombre d'octets NULL autorisé par Mo pour qu'un fichier soit toujours considéré comme texte et non comme binaire"
+msgstr "jumlah byte NULL per MB yang diizinkan agar file tetap dianggap teks bukan biner"
 
 #. Resource IDs: (112)
 msgid "only files that match this pattern are searched.\r\nText match extended. Use \"|\" as the delimiter.\r\nExample: *.cpp|*.h"
-msgstr "Seuls les fichiers correspondant à ce modèle sont recherchés.\r\nCorrespondance de texte étendue. Utilisez \"|\" comme délimiteur.\r\nEx. : *.cpp|*.h"
+msgstr "hanya file yang cocok pola ini yang dicari.\r\nKhớp teks diperluas. Gunakan \"|\" sebagai pemisah.\r\nContoh: *.cpp|*.h"
 
 #. Resource IDs: (176)
 msgid "open list with recent entries"
-msgstr "ouvrir la liste des entrées récentes"
+msgstr "buka daftar entri terbaru"
 
 #. Resource IDs: (129)
 msgid "read error"
-msgstr "Erreur de lecture"
+msgstr "kesalahan baca"
 
 #. Resource IDs: (131)
 msgid "regex ok"
-msgstr "regex OK"
+msgstr "regex valid"
 
 #. Resource IDs: (117)
 msgid "reuse grepWin instances."
-msgstr "Réutiliser l'instance de grepWin."
+msgstr "gunakan ulang instans grepWin."
 
 #. Resource IDs: (151)
 #, c-format
 msgid "scanning file '%s'"
-msgstr "analyse du fichier '%s'"
+msgstr "memindai file '%s'"
 
 #. Resource IDs: (108)
 msgid "search string is empty"
-msgstr "La chaîne de recherche est vide."
+msgstr "string pencarian kosong"
 
 #. Resource IDs: (170, 171)
 msgid "start new grepWin window"
-msgstr "Ouvrir une nouvelle fenêtre grepWin"
+msgstr "buka jendela grepWin baru"
 
 #. Resource IDs: (114)
 msgid "the path(s) which is searched recursively.\r\nSeparate paths with the | symbol.\r\nExample: c:\\temp|d:\\logs"
-msgstr "Chemin(s) de recherche récursive.\n'|' pour ajouter un chemin.\nEx. : c:\\temp|d:\\logs"
+msgstr "jalur yang dicari secara rekursif.\r\nPisahkan jalur dengan simbol |.\r\nContoh: c:\\temp|d:\\logs"
 
 #. Resource IDs: (113)
 msgid "you can exclude directories, e.g. CVS and images.\r\nExample: ^(CVS|images)$\r\nNote, '.svn' folders are 'hidden' on Windows, so they usually are not scanned."
-msgstr "Il est possible d'exclure des dossiers. Ex.: ^(CVS|images)$ pour exclure CVS et images\r\nLes dossiers '.svn' sont 'cachés' sous Windows et ne sont normalment pas scannés."
+msgstr "Anda dapat mengecualikan direktori, mis. CVS dan images.\r\nContoh: ^(CVS|images)$\r\nCatatan: folder '.svn' tersembunyi di Windows sehingga biasanya tidak dipindai."
 
 #. Resource IDs: (1064, 1066, 1067)
 msgid "|"
@@ -690,9 +682,9 @@ msgstr "⑂"
 
 #. Resource IDs: (1071)
 msgid "⚙ Settings"
-msgstr "⚙ Paramètres"
+msgstr "⚙ Pengaturan"
 
 #. Resource IDs: (123)
 msgid "🔎 &Search"
-msgstr "🔎 Re&chercher"
+msgstr "🔎 &Cari"
 
