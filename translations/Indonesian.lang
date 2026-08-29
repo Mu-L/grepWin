@@ -297,6 +297,10 @@ msgstr "Sertakan item sistem"
 msgid "Invalid path!"
 msgstr "Jalur tidak valid!"
 
+#. Resource IDs: (183)
+msgid "Invalid search text"
+msgstr "Teks pencarian tidak valid"
+
 #. Resource IDs: (161)
 msgid "Inverse search"
 msgstr "Pencarian terbalik"
@@ -477,6 +481,10 @@ msgstr "Hasil pencarian"
 #. Resource IDs: (105)
 msgid "Search string"
 msgstr "String pencarian"
+
+#. Resource IDs: (182)
+msgid "Search string contains non-word characters, a \"whole word\" search is not possible!"
+msgstr "String pencarian mengandung karakter yang bukan kata, sehingga pencarian “kata utuh” tidak dapat dilakukan!"
 
 #. Resource IDs: (128)
 #, c-format

@@ -297,6 +297,10 @@ msgstr "Bao gồm mục hệ thống"
 msgid "Invalid path!"
 msgstr "Đường dẫn không hợp lệ!"
 
+#. Resource IDs: (183)
+msgid "Invalid search text"
+msgstr "Văn bản tìm kiếm không hợp lệ"
+
 #. Resource IDs: (161)
 msgid "Inverse search"
 msgstr "Tìm kiếm đảo ngược"
@@ -477,6 +481,10 @@ msgstr "Kết quả tìm kiếm"
 #. Resource IDs: (105)
 msgid "Search string"
 msgstr "Chuỗi tìm kiếm"
+
+#. Resource IDs: (182)
+msgid "Search string contains non-word characters, a \"whole word\" search is not possible!"
+msgstr "Chuỗi tìm kiếm chứa các ký tự không phải là từ, do đó không thể thực hiện tìm kiếm \"toàn từ\"!"
 
 #. Resource IDs: (128)
 #, c-format
